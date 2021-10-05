@@ -26,4 +26,4 @@ jobs:
           push: true
           tags: |
             douglasmoura01/rotten-potatoes:latest
-            douglasmoura01/rotten-potatoes:${{ github.run_number }}
+            douglasmoura01/rotten-potatoes:v${{ github.run_number }}
